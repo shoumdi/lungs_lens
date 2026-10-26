@@ -35,4 +35,4 @@ if uploaded_file is not None:
             if result_class == 'PNEUMONIA':
                 st.error(f"**PNEUMONIE DÉTECTÉE** (Confiance : {score*100:.2f}%)")
             else:
-                st.success(f"**NORMAL** (Confiance : {(1-score)*100:.2f}%)")
+                st.success(f"**NORMAL** (Confiance : {(1-score)*100:.2f}%)"
